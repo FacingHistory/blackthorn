@@ -129,23 +129,38 @@
 																			<br/>
 																		<![endif]-->
 																		<p style="margin: 0; text-align: left; margin-bottom: 20px">
-                                      [ENTER PARAGRAPH 1]
+                                      Thank you for supporting the {!conference360__Attendee__c.conference360__Event_Name__c} on [day of week, date]. We're thrilled that you'll be able to join us as we raise support for our work in [region] and around the world.
                                     </p>
                                     <p style="margin: 0; text-align: left; mso-line-height-alt: 14.399999999999999px;"> </p>
                                     <p style="margin: 0; text-align: left; margin-bottom: 20px;">
-                                      [ENTER PARAGRAPH 2]
+                                      <strong>Event details:</strong>
                                     </p>
 																		<p style="margin: 0; text-align: left; mso-line-height-alt: 14.399999999999999px;"> </p>
 																		<p style="margin: 0; text-align: left; margin-bottom: 20px;">
-                                      [ENTER PARAGRAPH 3]
+                                      <strong>Date:</strong> {!conference360__Attendee__c.conference360__Event_Start_Date__c} to {!conference360__Attendee__c.conference360__Event_End_Date__c}
+                                      {!conference360__Attendee__c.conference360__Event_Start_Time__c} - {!conference360__Attendee__c.conference360__Event_End_Time__c}
                                     </p>
                                     <p style="margin: 0; text-align: left; mso-line-height-alt: 14.399999999999999px;"> </p>
 																		<p style="margin: 0; text-align: left; margin-bottom: 20px;">
-                                      [ENTER PARAGRAPH 4]
+                                      <strong>Address:</strong> {!conference360__Attendee__c.conference360__Venue_Name__c}
+                                      {!conference360__Attendee__c.conference360__Venue_Street__c}
+                                      {!conference360__Attendee__c.conference360__Venue_City__c}, {!conference360__Attendee__c.conference360__Venue_State_Province__c} {!conference360__Attendee__c.conference360__Venue_Postal_Code__c}
+                                    </p>
+                                    <p style="margin: 0; text-align: left; mso-line-height-alt: 14.399999999999999px;"> </p>
+																		<p style="margin: 0; text-align: left; margin-bottom: 20px;">
+                                      Please consult your tax advisor regarding deductibility of your contribution. Donors paying later through a donor-advised fund or foundation must remit the actual cost of their dinner(s) separately to meet IRS requirements.
+                                    </p>
+                                    <p style="margin: 0; text-align: left; mso-line-height-alt: 14.399999999999999px;"> </p>
+																		<p style="margin: 0; text-align: left; margin-bottom: 20px;">
+                                      If you have any questions, please contact [regional development staff] at [email] or [phone].
+                                    </p>
+                                    <p style="margin: 0; text-align: left; mso-line-height-alt: 14.399999999999999px;"> </p>
+																		<p style="margin: 0; text-align: left; margin-bottom: 20px;">
+                                      Thank you!
                                     </p>
                                     <p style="margin: 0; text-align: left; mso-line-height-alt: 14.399999999999999px;"> </p>
 																		<p style="margin: 0; text-align: left;">
-                                      [ENTER PARAGRAPH 5]
+                                      P.S. Many companies offer matching gift programs that can double, or triple the impact of your gift. Don't forget to complete a matching gift form through your company so they can match your generosity!
                                     </p>
                                     <p style="margin: 0; text-align: left; mso-line-height-alt: 14.399999999999999px;"> </p>
                                   </div>
@@ -160,22 +175,31 @@
 																	<div class="txtTinyMce-wrapper" style="font-size: 14px; mso-line-height-alt: 14.399999999999999px; color: #555555; line-height: 1.2; font-family: Arial, Helvetica, sans-serif;">
 																		<p style="margin: 0; text-align: left; mso-line-height-alt: 14.399999999999999px;"> </p>
 																		<p style="margin: 0; text-align: left; margin-bottom: 20px;">
-																			If you have any questions, contact <a href="mailto:support@facinghistory.org">support@facinghistory.org</a>.
+																			<strong>Transaction Summary</strong>
+                                      <p style="margin: 0; text-align: left;"><strong>Date:</strong> [site:current-date:custom:m/d/Y]</p>
+                                      <p style="margin: 0; text-align: left;"><strong>Amount:</strong> $[donation:amount]</p>
+                                      <p style="margin: 0; text-align: left;"><strong>Confirmation Code:</strong> [donation:did]</p>
 																		</p>
 																		<p style="margin: 0; text-align: left; mso-line-height-alt: 14.399999999999999px;"> </p>
-																		<p style="margin: 0; text-align: left; margin-bottom: 20px;">
-																			<strong>Your Profile:</strong> Log in to see all events for which you're registered, to update contact information, and to access all your Facinghistory.org resources at <a href="https://www.facinghistory.org/user">https://www.facinghistory.org/user</a>.
-																		</p>
-																		<p style="margin: 0; text-align: left; mso-line-height-alt: 14.399999999999999px;"> </p>
-																		<p style="margin: 0; text-align: left; margin-bottom: 20px;">
-																			<strong>Questions? Contact Us:</strong> <a href="https://www.facinghistory.org/contact-us">https://www.facinghistory.org/contact-us</a>
+																		<p style="margin: 0; text-align: left;">
+																			<strong>Donor Name:</strong> [donation:first_name] [donation:last_name]</p>
+                                    <p style="margin: 0; text-align: left;"><strong>Email Address:</strong> [donation:mail]</p>
+                                    <p style="margin: 0; text-align: left;"><strong>Address:</strong></p>
+                                    <p style="margin: 0; text-align: left;">[donation:address] [donation:address_line_2]</p>
+                                    <p style="margin: 0; text-align: left;">[donation:address_line_2]</p>
+                                    <p style="margin: 0; text-align: left;">  [donation:city], [donation:state] [donation:zip]</p>
+                                    <p style="margin: 0; text-align: left;">  [donation:country]</p>
+																		<p style="margin: 0; text-align: left; mso-line-height-alt: 14.399999999999999px; margin-bottom: 20px;"> </p>
+																		<p style="margin: 0; text-align: left;">
+																			<strong>Payment Type:</strong> [donation:card_type]
+                                    <p style="margin: 0; text-align: left;">
+                                      <strong>Credit Card Number:</strong> *************[donation:card_number]
+                                    </p>
 																		</p>
 																		<p style="margin: 0; text-align: left; mso-line-height-alt: 14.399999999999999px;"> </p>
 																		<!--[if mso]>
 																			<br/>
 																		<![endif]-->
-																		<p style="margin: 0; text-align: left;">We look forward to seeing you soon!</p>
-																		<p style="margin: 0; text-align: left;">Thank you!</p>
 																	</div>
 																</div>
 															</td>
